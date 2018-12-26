@@ -4,7 +4,7 @@
       <nuxt />
     </v-content>
     <v-footer class="footer">
-      <span class="footer__copy">&copy; 2018. All rights Reserved.</span>
+      <span class="footer__copy">&copy; 2018. Tersirat. All rights Reserved.</span>
     </v-footer>
   </v-app>
 </template>
