@@ -8,7 +8,7 @@
       <app-header />
       <book-form />
     </div>
-    <covered-events />
+    <portofolios />
   </v-layout>
 </template>
 
@@ -17,7 +17,7 @@ import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import AppHeader from '~/components/AppHeader.vue'
 import BookForm from '~/components/BookForm.vue'
-import CoveredEvents from '~/components/CoveredEvents.vue'
+import Portofolios from '~/components/Portofolios.vue'
 
 export default {
   components: {
@@ -25,7 +25,7 @@ export default {
     VuetifyLogo,
     AppHeader,
     BookForm,
-    CoveredEvents
+    Portofolios
   }
 }
 </script>
