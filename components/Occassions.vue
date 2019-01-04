@@ -1,7 +1,7 @@
 <template>
   <div class="occassions">
     <div class="occassions__title">Occassions</div>
-    <div class="occassions__row">
+    <div class="app-row">
       <div class="occassions__column">
         <v-img src="https://cdn.sweetescape.com/misc/home/occasions/img-honeymoon.jpg" style="width:100%" />
       </div>
@@ -41,13 +41,6 @@ export default {
     font-size: 1.5rem;
     font-weight: bold;
   }
-}
-.occassions__row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -4px;
 }
 .occassions__column {
   -ms-flex: 20%; /* IE10 */

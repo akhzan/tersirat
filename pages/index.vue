@@ -50,4 +50,11 @@ body {
   background-image: url('~assets/back.jpg');
   background-size: cover;
 }
+.app-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -4px;
+}
 </style>

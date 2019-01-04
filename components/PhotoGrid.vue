@@ -1,5 +1,5 @@
 <template>
-  <div class="photo-grid__row">
+  <div class="app-row">
     <div class="photo-grid__column">
       <v-img src="https://picsum.photos/500/300?image=15" style="width:100%" />
       <v-img src="https://picsum.photos/500/300?image=16" style="width:100%" />
@@ -25,13 +25,6 @@
   .container {
     padding: 0;
   }
-}
-.photo-grid__row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -4px;
 }
 .photo-grid__column {
   -ms-flex: 50%; /* IE10 */
