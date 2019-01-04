@@ -8,6 +8,7 @@
       <app-header />
       <book-form />
     </div>
+    <occassions />
     <portofolios />
   </v-layout>
 </template>
@@ -18,6 +19,7 @@ import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import AppHeader from '~/components/AppHeader.vue'
 import BookForm from '~/components/BookForm.vue'
 import Portofolios from '~/components/Portofolios.vue'
+import Occassions from '~/components/Occassions.vue'
 
 export default {
   components: {
@@ -25,7 +27,8 @@ export default {
     VuetifyLogo,
     AppHeader,
     BookForm,
-    Portofolios
+    Portofolios,
+    Occassions
   }
 }
 </script>
