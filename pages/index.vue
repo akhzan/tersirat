@@ -8,6 +8,7 @@
       <app-header />
       <book-form />
     </div>
+    <packages />
     <occassions />
     <portofolios />
   </v-layout>
@@ -20,6 +21,7 @@ import AppHeader from '~/components/AppHeader.vue'
 import BookForm from '~/components/BookForm.vue'
 import Portofolios from '~/components/Portofolios.vue'
 import Occassions from '~/components/Occassions.vue'
+import Packages from '~/components/Packages.vue'
 
 export default {
   components: {
@@ -28,7 +30,8 @@ export default {
     AppHeader,
     BookForm,
     Portofolios,
-    Occassions
+    Occassions,
+    Packages
   }
 }
 </script>
