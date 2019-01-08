@@ -32,6 +32,9 @@ export default {
     font-size: 1.5rem;
     font-weight: bold;
   }
+  .app-row {
+    margin: 0 -8px !important;
+  }
 }
 .packages__column {
   -ms-flex: 50%; /* IE10 */
