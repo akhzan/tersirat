@@ -4,18 +4,23 @@
     <div class="app-row">
       <div class="occassions__column">
         <v-img src="https://cdn.sweetescape.com/misc/home/occasions/img-honeymoon.jpg" style="width:100%" />
+        <div class="occassions__column-title">Prewedding</div>
       </div>
       <div class="occassions__column">
         <v-img src="https://cdn.sweetescape.com/misc/home/occasions/img-honeymoon.jpg" style="width:100%" />
+        <div class="occassions__column-title">Engagement</div>
       </div>
       <div class="occassions__column">
         <v-img src="https://cdn.sweetescape.com/misc/home/occasions/img-honeymoon.jpg" style="width:100%" />
+        <div class="occassions__column-title">Akad</div>
       </div>
       <div class="occassions__column">
         <v-img src="https://cdn.sweetescape.com/misc/home/occasions/img-honeymoon.jpg" style="width:100%" />
+        <div class="occassions__column-title">Pengajian</div>
       </div>
       <div class="occassions__column">
         <v-img src="https://cdn.sweetescape.com/misc/home/occasions/img-honeymoon.jpg" style="width:100%" />
+        <div class="occassions__column-title">Siraman</div>
       </div>
     </div>
   </div>
@@ -54,5 +59,8 @@ export default {
     margin-top: 8px;
     vertical-align: middle;
   }
+}
+.occassions__column-title {
+  text-transform: uppercase;
 }
 </style>
