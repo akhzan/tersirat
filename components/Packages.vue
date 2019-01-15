@@ -6,7 +6,7 @@
         <div class="packages__item">
           <div class="package__item-title">
             <h5>PHOTOGRAPHY</h5>
-            <div><b>IDR 1200 K</b> / session</div>
+            <div><b>IDR 800 K</b> / session</div>
           </div>
           <div class="package__item-action">
             <a>see detail</a>
@@ -17,7 +17,7 @@
         <div class="packages__item">
           <div class="package__item-title">
             <h5>PHOTO & VIDEO</h5>
-            <div><b>IDR 800 K</b> / session</div>
+            <div><b>IDR 1200 K</b> / session</div>
           </div>
           <div class="package__item-action">
             <a>see detail</a>
