@@ -5,8 +5,8 @@
     </v-flex>
     <div class="app-header__right">
       <ul>
-        <li><a>Instagram</a></li>
-        <li><a>Whatsapp</a></li>
+        <li><i class="fab fa-instagram" /></li>
+        <li><i class="fab fa-whatsapp" /></li>
       </ul>
     </div>
   </v-layout>
@@ -32,6 +32,10 @@
   }
   a {
     color: white;
+  }
+  i {
+    font-size: 1.4rem;
+    cursor: pointer;
   }
 }
 </style>
