@@ -5,8 +5,12 @@
     </v-flex>
     <div class="app-header__right">
       <ul>
-        <li><i class="fab fa-instagram" /></li>
-        <li><i class="fab fa-whatsapp" /></li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/tersirat.id/"><i class="fab fa-instagram" /></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://wa.me/6285771731482"><i class="fab fa-whatsapp" /></a>
+        </li>
       </ul>
     </div>
   </v-layout>
